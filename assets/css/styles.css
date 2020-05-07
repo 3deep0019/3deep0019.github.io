@@ -1,0 +1,92 @@
+.navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show > .nav-link {
+  color: rgba(218,216,216,0.9);
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: rgba(218,216,216,0.9);
+  font-size: 16px;
+  font-family: Montserrat, sans-serif;
+  margin-right: 50px;
+  height: 40px;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+  color: rgba(255,255,255,0.9);
+  font-family: Montserrat, sans-serif;
+  margin-right: 50px;
+}
+
+#logo {
+  width: 90px;
+  height: 90px;
+}
+
+#intro {
+  width: 60%;
+  margin: 50px auto;
+  color: rgba(218,216,216,0.9);
+}
+
+#intro h1 {
+  font-family: Montserrat, sans-serif;
+  font-size: 50px;
+}
+
+@media (max-width: 375px) {
+  #intro h1 {
+    font-family: Montserrat, sans-serif;
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 375px) {
+  #intro p {
+    font-family: Montserrat, sans-serif;
+    opacity: 0.59;
+    font-size: 15px;
+    margin: 0px 10px;
+  }
+}
+
+#intro p {
+  font-family: Montserrat, sans-serif;
+  opacity: 0.59;
+  font-size: 19px;
+  margin: 0px 10px;
+}
+
+#about-heading {
+  text-align: center;
+  color: rgba(218,216,216,0.9);
+  margin: 0px 0px 20px;
+}
+
+.text-center {
+  color: rgba(218,216,216,0.9);
+}
+
+.row.people {
+}
+
+#profile-img {
+  width: 150px;
+  height: 150px;
+}
+
+.icon-style {
+  margin: 30px 30px 100px;
+  font-size: 20px;
+}
+
+.live-p:hover {
+  text-decoration: none;
+  border: 1px solid rgba(218,216,216,0.9);
+  padding: 5px;
+  color: rgba(218,216,216,0.9);
+}
+
+.live-p {
+  color: rgba(218,216,216,0.9);
+  padding: 5px;
+}
+
