@@ -15,7 +15,9 @@
   font-family: Montserrat, sans-serif;
   margin-right: 50px;
 }
-
+.navbar-toggler {
+  background-color:rgba(121, 121, 121, 0.9); ;
+}
 #logo {
   width: 90px;
   height: 90px;
